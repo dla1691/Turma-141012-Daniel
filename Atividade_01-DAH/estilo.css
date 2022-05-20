@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: 100% Calibri, Verdana;
+    font-weight: bold;  
+    
+}
+
+#top, .liatv, h2{
+    margin: 25px;
+}
+
+h1{
+    font: 100% Calibri, Verdana;
+    font-size: x-large;
+    font-weight: bold; 
+}
+
+#pg{
+    color: green;
+    
+}
+ul{
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+li{
+    
+    padding-left: 20px;
+}
+
+ul.listinha {
+	list-style-type: disc;
+   
+	
+}
+
+
+
+h2{
+    color: red;
+}
