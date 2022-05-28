@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style02.css">
     <link rel="stylesheet" href="css/style03.css">
     <link rel="stylesheet" href="css/style04.css">
+    <link rel="stylesheet" href="css/style05.css">
 </head>
     <body>
         <div id="menubar">
@@ -13,7 +14,7 @@
                 
                 
                 <h1> Bem-Vindo à minha página inicial</h1>
-                <p>Use o menu para selecionar diferentes folhas de estilo></p> 
+                <p>Use o menu para selecionar diferentes folhas de estilo</p> 
 
             </div>
 
@@ -25,6 +26,7 @@
                         <li class="item-menu" onclick="onStyle(1)">Folha de estilo 2</li>
                         <li class="item-menu" onclick="onStyle(2)">Folha de estilo 3</li>
                         <li class="item-menu" onclick="onStyle(3)">Folha de estilo 4</li>
+                        <li class="item-menu" onclick="onStyle(4)">Folha de estilo 5</li>
                         <li class="item-menu" onclick="noStyle()">Sem folha de estilo</li>
                     </ul>
                 </div>
@@ -37,7 +39,8 @@
                     <a onclick="onStyle(0)" href="#">Stylesheet1</a> , 
                     <a onclick="onStyle(1)"href="#">Stylesheet2</a> ,
                     <a onclick="onStyle(2)"href="#">Stylesheet3</a> , 
-                    <a onclick="onStyle(3)"href="#">Stylesheet4</a> .
+                    <a onclick="onStyle(3)"href="#">Stylesheet4</a> ,
+                    <a onclick="onStyle(4)"href="#">Stylesheet5</a> .
                    
                     </P>
                     <h2>Sem estilos</h2>
@@ -70,6 +73,7 @@
                  document.styleSheets[1].disabled = true;
                  document.styleSheets[2].disabled = true;
                  document.styleSheets[3].disabled = true;
+                 document.styleSheets[4].disabled = true;
              }
 
              function onStyle(n){
